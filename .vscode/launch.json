@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<product-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "io.pact.workshop.product_service.Application",
+            "projectName": "product-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<product-catalogue>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "io.pact.workshop.product_catalogue.Application",
+            "projectName": "product-catalogue",
+            "args": ""
+        }
+    ]
+}
